@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>World Map</title>
+<style>
+	* {
+		padding: 0;
+		margin: 0;
+	}
+	#map {
+		height: 1000px;
+		width: 100%;
+	}
+</style>
+</head>
+<body>
+<div id="map">
+</div>
+<div id="window">
+	<h2 id="date"></h1>
+	<h2 id="localTime"><br></h1>
+	<h1 id="weather" ></h1>
+	<h2 id="desc"></h2>
+	<h2 id="temp"></h2>
+</div>
+<script src="main.js">
+</script>
+<script  defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAlOqeWZDcS4f5PVebZph1sFCCWUgPekS8&callback=initMap"></script>
+</body>
+</html>
